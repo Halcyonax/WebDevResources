@@ -1,7 +1,7 @@
 function rps(){
 
   function determineCom(num){
-      if(num <= 0.33){ //these numbers are chosen because math.random() returns up to 0.99 only test for git
+      if(num <= 0.33){ //these numbers are chosen because math.random() returns up to 0.99 test for git
         return "rock";
       }else if(num <= 0.66){
         return "paper";
