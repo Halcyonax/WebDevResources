@@ -15,5 +15,5 @@ function palindrome(str){
 
   function palinedromev2(str){
     return str.toLowerCase().split('').reverse().join('') === str.toLowerCase();
-  } //shortest palindrome function and don't forget the single quotation marks
+  } //shortest palindrome function and don't forget the single quotation marks test 2
 
