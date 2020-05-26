@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.color-change').forEach(function(button) {
+            button.onclick = function() {
+                document.querySelector('#hello').style.color = button.dataset.yeet;
+    };
+});
+
+});
+        </script>
+    </head>
+
+    <body>
+        
+        <h1 id="hello">Halcyon's blog</h1>
+
+        <button class="color-change" data-yeet="red">red</button>
+        <button class="color-change" data-yeet="blue">blue</button>
+    </body>
+</html>

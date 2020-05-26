@@ -1,0 +1,51 @@
+*{
+    font-family: "open sans";
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.topnav {
+    display: flex;
+    background:palevioletred ;
+    width:100%;
+    height: 60px;
+}
+
+.navlogo{
+    width:120px;
+}
+
+.search-container{
+    display:flex;
+    width:40%;
+    font-size: 20px;
+    align-self: center;
+    float:left;
+    background-color: gray;
+}
+
+#searchbar{
+    width:100%
+}
+.navlinks{
+    width:45%;
+}
+
+.nav-button{
+    color:white;
+    text-decoration: none;
+   padding:10px;
+   margin:10px;
+   float:right;
+   align-self: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:palevioletred;
+    color:white;
+   }
